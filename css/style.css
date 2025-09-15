@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #ddd;
+}
+
+h1 {
+    padding-top: 14%;
+    font-size: 90px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+header {
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}   
+
+header a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+nav {
+    text-align: right;
+    line-height: 100px;
+}
+
+nav a {
+    transition: all 0.7s ease 0s;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 75px;
+    color: white
+}
+
+nav a:hover {
+    color: red;
+    transform: rotate(10deg);
+}
+
+.banner-area {
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://images.wallpaperscraft.com/image/single/skateboarder_skateboard_trick_120550_1920x1080.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area-skateparken {
+    width: 100%;
+    height: 1200px;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://static.trip101.com/paragraph_media/pictures/002/333/369/large/skateboarding-1149507_960_720.jpg?1608548261);
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area-tricks {
+    width: 100%;
+    height: 1200px;
+    position: fixed;
+    top: 99px;
+    background-image: url(https://www.teahub.io/photos/full/139-1394533_2562x1239-download-in-original-resolution-data-id-pro.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area-contact {
+    width: 100%;
+    height: 850px;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://wallpapercave.com/wp/wp7213446.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area-contact h1 {
+    padding-top: 13%;
+    font-size: 90px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.banner-area-contact p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+.content-area-skateinfo {
+    width: 100%;
+    position: relative;
+    top: 800px;
+    background: #ddd;
+    height: 450px;
+}
+
+.content-area-skateinfo h2 {
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content-area-skateinfo p {
+    padding: 2% 0;
+    line-height: 30px;
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.content-area-tricks {
+    width: 100%;
+    position: relative;
+    top: 800px;
+    background: #ddd;
+    height: 850px;
+}
+
+.content-area-tricks h2 {
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content-area-tricks p {
+    padding: 2% 0;
+    line-height: 30px;
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.content-area-skateboardtricks h1 {
+    color: black;
+    font-size: 75px;
+    padding-top: 2em;
+}
+
+.content-area-skateboardtricks p {
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+}
+
+.content-area-contact {
+    width: 100%;
+    position: relative;
+    top: 800px;
+    background: #ddd;
+    height: 137px;
+}
+
+main section {
+    width: 100%;
+    position: relative;
+    top: 800px;
+    background: #ddd;
+    height: 1575px;
+}
+
+
+main section h2 {
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+main section p {
+    padding: 2% 0;
+    line-height: 30px;
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+}
+
+main section img {
+    border-style: double;
+}
+
+ul {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    display: inline;
+    width: 49%;
+    margin-top: 2%;
+}
+
+header>a>img {
+    margin-left: 2em;
+    float: left;
+    margin-top: 15px;
+}
+
+figure>img {
+    width: 60%;
+    border: #262626;
+    border-style: double;
+}
+
+figure>figcaption {
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+p>a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.7s ease 0s;
+    display: inline-block;
+    background-color: white;
+    padding: 1em;
+    border-radius: 30px;
+}
+
+p>a:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-container>figure {
+    width: 500px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
